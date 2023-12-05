@@ -28,7 +28,7 @@ def create_topology():
     net.start()
 
     # Adiciona as interfaces dos controladores
-    s1.start([c0])
+    s1.start(c0)
 
     # Abre a interface de linha de comando para interação
     CLI(net)
